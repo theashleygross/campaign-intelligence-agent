@@ -1,0 +1,242 @@
+[
+  {
+    "campaign_id": "CMP-001",
+    "objective": "lead generation",
+    "audience": "IT directors at mid-market manufacturers",
+    "market": "North America",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "LinkedIn",
+    "description": "Sponsored LinkedIn content targeting IT directors at mid-market manufacturers, promoting a free supply-chain uptime assessment to generate qualified demo requests.",
+    "metrics": {
+      "ctr": 0.021,
+      "conversion_rate": 0.034,
+      "cost_per_lead": 88.5,
+      "impressions": 210000,
+      "leads": 145
+    }
+  },
+  {
+    "campaign_id": "CMP-002",
+    "objective": "brand awareness",
+    "audience": "Operations VPs at logistics companies",
+    "market": "North America",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "display",
+    "description": "Programmatic display campaign featuring customer success story videos to build familiarity with the CloudSync brand among logistics operations leaders.",
+    "metrics": {
+      "ctr": 0.006,
+      "conversion_rate": 0.004,
+      "cost_per_lead": 210.0,
+      "impressions": 950000,
+      "leads": 38
+    }
+  },
+  {
+    "campaign_id": "CMP-003",
+    "objective": "product launch",
+    "audience": "IT directors at mid-market manufacturers",
+    "market": "Europe",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "email",
+    "description": "Launch announcement email sequence for the new predictive-maintenance module, sent to existing manufacturing contacts across the EU install base.",
+    "metrics": {
+      "ctr": 0.045,
+      "conversion_rate": 0.061,
+      "cost_per_lead": 32.0,
+      "impressions": 42000,
+      "leads": 210
+    }
+  },
+  {
+    "campaign_id": "CMP-004",
+    "objective": "lead generation",
+    "audience": "Finance directors at regional banks",
+    "market": "North America",
+    "product_line": "LedgerGuard Compliance Suite",
+    "channel": "webinar",
+    "description": "Live webinar on new regulatory reporting requirements, positioned as a lead magnet for the LedgerGuard compliance suite among regional bank finance leaders.",
+    "metrics": {
+      "ctr": 0.038,
+      "conversion_rate": 0.11,
+      "cost_per_lead": 54.0,
+      "impressions": 15000,
+      "leads": 165
+    }
+  },
+  {
+    "campaign_id": "CMP-005",
+    "objective": "brand awareness",
+    "audience": "Finance directors at regional banks",
+    "market": "North America",
+    "product_line": "LedgerGuard Compliance Suite",
+    "channel": "LinkedIn",
+    "description": "Thought-leadership LinkedIn series featuring compliance officer interviews to build category authority for LedgerGuard ahead of Q3 renewals.",
+    "metrics": {
+      "ctr": 0.014,
+      "conversion_rate": 0.009,
+      "cost_per_lead": 175.0,
+      "impressions": 180000,
+      "leads": 46
+    }
+  },
+  {
+    "campaign_id": "CMP-006",
+    "objective": "lead generation",
+    "audience": "HR directors at healthcare systems",
+    "market": "North America",
+    "product_line": "StaffWell Scheduling",
+    "channel": "email",
+    "description": "Nurture email drip offering a free staffing-gap calculator to HR directors managing shift scheduling at multi-site healthcare systems.",
+    "metrics": {
+      "ctr": 0.029,
+      "conversion_rate": 0.041,
+      "cost_per_lead": 61.0,
+      "impressions": 38000,
+      "leads": 92
+    }
+  },
+  {
+    "campaign_id": "CMP-007",
+    "objective": "product launch",
+    "audience": "HR directors at healthcare systems",
+    "market": "North America",
+    "product_line": "StaffWell Scheduling",
+    "channel": "webinar",
+    "description": "Launch webinar unveiling AI-assisted shift forecasting for StaffWell, targeting HR and workforce planning directors at hospital networks.",
+    "metrics": {
+      "ctr": 0.033,
+      "conversion_rate": 0.085,
+      "cost_per_lead": 47.0,
+      "impressions": 12500,
+      "leads": 98
+    }
+  },
+  {
+    "campaign_id": "CMP-008",
+    "objective": "lead generation",
+    "audience": "IT directors at mid-market manufacturers",
+    "market": "Asia-Pacific",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "LinkedIn",
+    "description": "APAC-localized LinkedIn lead gen campaign for CloudSync, offering a downtime-cost calculator to manufacturing IT directors in the region.",
+    "metrics": {
+      "ctr": 0.017,
+      "conversion_rate": 0.026,
+      "cost_per_lead": 102.0,
+      "impressions": 165000,
+      "leads": 73
+    }
+  },
+  {
+    "campaign_id": "CMP-009",
+    "objective": "brand awareness",
+    "audience": "Procurement leads at retail chains",
+    "market": "North America",
+    "product_line": "ShelfSense Inventory AI",
+    "channel": "display",
+    "description": "Retail trade-publication display campaign introducing ShelfSense to procurement leads, focused on impression volume during peak planning season.",
+    "metrics": {
+      "ctr": 0.005,
+      "conversion_rate": 0.003,
+      "cost_per_lead": 240.0,
+      "impressions": 720000,
+      "leads": 22
+    }
+  },
+  {
+    "campaign_id": "CMP-010",
+    "objective": "lead generation",
+    "audience": "Procurement leads at retail chains",
+    "market": "North America",
+    "product_line": "ShelfSense Inventory AI",
+    "channel": "email",
+    "description": "Targeted email campaign offering a free shrinkage-reduction audit to procurement leads at multi-location retail chains.",
+    "metrics": {
+      "ctr": 0.031,
+      "conversion_rate": 0.048,
+      "cost_per_lead": 58.0,
+      "impressions": 27000,
+      "leads": 88
+    }
+  },
+  {
+    "campaign_id": "CMP-011",
+    "objective": "product launch",
+    "audience": "Finance directors at regional banks",
+    "market": "Europe",
+    "product_line": "LedgerGuard Compliance Suite",
+    "channel": "webinar",
+    "description": "EU regulatory launch webinar for the LedgerGuard cross-border reporting module, aimed at finance directors navigating new EBA guidance.",
+    "metrics": {
+      "ctr": 0.041,
+      "conversion_rate": 0.095,
+      "cost_per_lead": 49.0,
+      "impressions": 11000,
+      "leads": 104
+    }
+  },
+  {
+    "campaign_id": "CMP-012",
+    "objective": "lead generation",
+    "audience": "Operations VPs at logistics companies",
+    "market": "North America",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "LinkedIn",
+    "description": "LinkedIn lead gen push for logistics operations VPs promoting a route-optimization ROI calculator tied to the CloudSync platform.",
+    "metrics": {
+      "ctr": 0.019,
+      "conversion_rate": 0.03,
+      "cost_per_lead": 95.0,
+      "impressions": 195000,
+      "leads": 111
+    }
+  },
+  {
+    "campaign_id": "CMP-013",
+    "objective": "brand awareness",
+    "audience": "HR directors at healthcare systems",
+    "market": "North America",
+    "product_line": "StaffWell Scheduling",
+    "channel": "display",
+    "description": "Healthcare-vertical display campaign building awareness of StaffWell among HR directors ahead of annual budget planning cycles.",
+    "metrics": {
+      "ctr": 0.007,
+      "conversion_rate": 0.005,
+      "cost_per_lead": 198.0,
+      "impressions": 540000,
+      "leads": 31
+    }
+  },
+  {
+    "campaign_id": "CMP-014",
+    "objective": "product launch",
+    "audience": "Procurement leads at retail chains",
+    "market": "Europe",
+    "product_line": "ShelfSense Inventory AI",
+    "channel": "email",
+    "description": "EU launch email sequence introducing ShelfSense demand-forecasting features to procurement leads at grocery and general-merchandise retail chains.",
+    "metrics": {
+      "ctr": 0.036,
+      "conversion_rate": 0.057,
+      "cost_per_lead": 44.0,
+      "impressions": 33000,
+      "leads": 121
+    }
+  },
+  {
+    "campaign_id": "CMP-015",
+    "objective": "lead generation",
+    "audience": "Finance directors at regional banks",
+    "market": "Asia-Pacific",
+    "product_line": "LedgerGuard Compliance Suite",
+    "channel": "webinar",
+    "description": "APAC regional webinar on cross-border payment compliance, generating leads among finance directors at regional and community banks.",
+    "metrics": {
+      "ctr": 0.034,
+      "conversion_rate": 0.078,
+      "cost_per_lead": 66.0,
+      "impressions": 9800,
+      "leads": 72
+    }
+  }
+]
