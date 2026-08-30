@@ -8,6 +8,22 @@
 - Deterministic, auditable rule derivation: hypotheses, risks, and messaging angles are computed from the matched campaigns' actual metrics via named, testable rules -- every claim traces back to data.
 - Responsible-AI UX discipline: the interface never blends "what we observed" with "what the AI recommends" -- they are two clearly labeled panels, plus a coverage indicator that flags when evidence is too thin to trust.
 
+## What this demo is / What this demo is not
+
+**What this demo is:**
+
+- A deterministic TF-IDF similarity-matching and rule-based evidence-derivation pipeline over a small synthetic campaign corpus, runnable entirely locally.
+- A working demonstration of a UI that keeps "observed evidence" and "AI-assisted recommendation" in clearly separate, clearly labeled panels.
+- Fully functional in mock mode with zero API keys or external services required.
+
+**What this demo is not:**
+
+- **No real authentication or authorization.** There is no login, no user accounts, and no access control of any kind -- anyone who runs the app sees and can use everything.
+- **No live integration beyond the optional Claude narration call.** With `MOCK_MODE=false` and a valid `ANTHROPIC_API_KEY`, `src/llm.py` calls Claude to polish already-fixed evidence into prose. Every other part of the pipeline (matching, metrics, hypotheses, risks) is local deterministic logic -- there is no live campaign-performance data warehouse, CRM, or ad-platform connection.
+- **No hosted deployment.** There is no live demo URL. Run it locally with the Quickstart commands below.
+- **Synthetic data only.** The entire 15-campaign corpus in `data/synthetic/past_campaigns.json` -- company names, audiences, and every metric -- is fictional, generated for this demo. It is not real historical campaign performance data.
+- **Not a predictive/ML model.** Campaign matching is TF-IDF cosine similarity over text fields (a classic information-retrieval technique), not a trained forecasting or machine-learning model.
+
 ## Demo moment
 
 A marketer fills in: objective = **lead generation**, audience = **IT directors at mid-market manufacturers**, market = **North America**, product = **CloudSync Ops Platform**, channel = **LinkedIn**, with a short description of the campaign concept.
@@ -61,6 +77,8 @@ streamlit run app.py
 
 Runs entirely in **mock mode by default** (`MOCK_MODE=true`) -- zero API keys required. The similarity matching, metrics, hypotheses, risks, and measurement plan are all real, deterministic logic; only the final narrative paragraph is template-written instead of Claude-written.
 
+No hosted demo for this prototype -- run locally with the Quickstart commands above.
+
 ## Switching to live mode
 
 ```bash
@@ -93,6 +111,26 @@ Run the test suite:
 ```bash
 pytest
 ```
+
+## Integration status
+
+| Integration | Status | Notes |
+|---|---|---|
+| LLM narration (Claude) | `mock` (default) / `real` (optional) | `MOCK_MODE=true` (default): template-written narrative, no network call, no key required. `MOCK_MODE=false` + valid `ANTHROPIC_API_KEY`: calls `claude-sonnet-5` via `src/llm.py` to polish the already-fixed, already-derived evidence into prose. Claude never chooses matches or invents metrics in either mode. |
+| Campaign performance corpus | `mock` | Static synthetic JSON file (`data/synthetic/past_campaigns.json`), 15 fictional campaigns. No live data warehouse or CRM connection exists or is planned for this prototype stage. |
+| Authentication | `stub` | No login, accounts, or access control -- the app is a single unauthenticated view. |
+
+## Known limitations
+
+**Prototype limitations** (intentionally out of scope for this demo, not defects):
+
+- No real authentication or authorization; every session sees the same unauthenticated view.
+- No persistence beyond the static local JSON corpus -- nothing a user submits through the form is saved anywhere, and there is no database.
+- Synthetic 15-campaign corpus only; rule thresholds (0.20 similarity cutoff, CTR/cost-per-lead baselines) are illustrative defaults, not tuned or validated against real campaign outcomes.
+- No audit logging, rate limiting, or monitoring.
+- No hosted deployment -- local-only via the Quickstart commands.
+
+**Defects found during release audit (2026-08-30):** none found. All four engine tests pass (`pytest`), the deterministic evidence-derivation logic was independently spot-checked against the raw synthetic corpus (see Evaluation below), and the Streamlit app boots cleanly.
 
 ## Roadmap
 
