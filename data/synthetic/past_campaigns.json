@@ -13,7 +13,10 @@
       "cost_per_lead": 88.5,
       "impressions": 210000,
       "leads": 145
-    }
+    },
+    "persona_notes": "IT Director, 40-55, manages plant-floor systems uptime, evaluated on unplanned downtime hours; skeptical of new vendors without peer proof points.",
+    "market_insight": "Mid-market manufacturers report downtime costs averaging $260/minute; budget cycles peak in Q1 and Q3 per industry surveys.",
+    "creative_reference": "LinkedIn carousel ad, headline 'What does an hour of downtime really cost you?', linked to a gated supply-chain uptime assessment tool."
   },
   {
     "campaign_id": "CMP-002",
@@ -29,7 +32,10 @@
       "cost_per_lead": 210.0,
       "impressions": 950000,
       "leads": 38
-    }
+    },
+    "persona_notes": "Operations VP, oversees multi-site logistics, prioritizes network reliability and vendor consolidation over point solutions.",
+    "market_insight": "Logistics operators have been consolidating software vendors; brand familiarity is a top-3 factor in shortlist inclusion per buyer surveys.",
+    "creative_reference": "15-second programmatic video ad featuring a customer success testimonial, run across trade-publication display inventory."
   },
   {
     "campaign_id": "CMP-003",
@@ -45,7 +51,10 @@
       "cost_per_lead": 32.0,
       "impressions": 42000,
       "leads": 210
-    }
+    },
+    "persona_notes": "IT Director at EU manufacturing sites, values compliance with EU machinery directives and existing vendor relationships.",
+    "market_insight": "EU manufacturers show higher email engagement for product updates than cold outreach; the existing customer base is the highest-intent launch audience.",
+    "creative_reference": "5-part email drip sequence, subject line 'New: Predictive Maintenance is here', includes an embedded product demo video."
   },
   {
     "campaign_id": "CMP-004",
@@ -61,7 +70,10 @@
       "cost_per_lead": 54.0,
       "impressions": 15000,
       "leads": 165
-    }
+    },
+    "persona_notes": "Finance Director at a regional bank, responsible for regulatory reporting accuracy, risk-averse, values peer-institution examples.",
+    "market_insight": "Regional banks face increasing reporting complexity following recent regulatory updates; webinar attendance spikes ahead of compliance deadlines.",
+    "creative_reference": "Live webinar titled 'New Regulatory Reporting Requirements: What Regional Banks Need to Know', co-hosted with a compliance analyst."
   },
   {
     "campaign_id": "CMP-005",
@@ -77,7 +89,10 @@
       "cost_per_lead": 175.0,
       "impressions": 180000,
       "leads": 46
-    }
+    },
+    "persona_notes": "Finance Director, values thought leadership from peers over vendor sales messaging; renewal decision-maker.",
+    "market_insight": "Category-authority content performs best ahead of Q3 renewal season, when finance teams re-evaluate vendors.",
+    "creative_reference": "LinkedIn thought-leadership video series featuring compliance officer interviews, no direct CTA to purchase."
   },
   {
     "campaign_id": "CMP-006",
@@ -93,7 +108,10 @@
       "cost_per_lead": 61.0,
       "impressions": 38000,
       "leads": 92
-    }
+    },
+    "persona_notes": "HR Director at a multi-site health system, juggling shift coverage gaps, measured on staffing cost and nurse retention.",
+    "market_insight": "Healthcare HR teams respond to calculator-style tools that quantify staffing-gap cost in dollar terms.",
+    "creative_reference": "Nurture email offering a free staffing-gap calculator, subject line 'What is understaffing costing your floors?'"
   },
   {
     "campaign_id": "CMP-007",
@@ -109,7 +127,10 @@
       "cost_per_lead": 47.0,
       "impressions": 12500,
       "leads": 98
-    }
+    },
+    "persona_notes": "HR / workforce planning director, evaluating AI forecasting tools cautiously due to past over-promised HR tech.",
+    "market_insight": "Hospital networks prioritize proof of forecast accuracy over feature breadth when adopting new scheduling AI.",
+    "creative_reference": "Launch webinar demo of AI-assisted shift forecasting, with a live Q&A with the product team."
   },
   {
     "campaign_id": "CMP-008",
@@ -125,7 +146,10 @@
       "cost_per_lead": 102.0,
       "impressions": 165000,
       "leads": 73
-    }
+    },
+    "persona_notes": "APAC IT director, budget cycles differ from NA/EU, prefers localized case studies over global ones.",
+    "market_insight": "APAC manufacturing IT buyers convert better with region-specific proof points and local-currency ROI framing.",
+    "creative_reference": "Localized LinkedIn lead ad offering a downtime-cost calculator, translated into regional language variants."
   },
   {
     "campaign_id": "CMP-009",
@@ -141,7 +165,10 @@
       "cost_per_lead": 240.0,
       "impressions": 720000,
       "leads": 22
-    }
+    },
+    "persona_notes": "Procurement lead at a retail chain, focused on peak-season vendor evaluation, low direct-response intent.",
+    "market_insight": "Retail procurement teams do vendor research during peak planning season (Aug-Oct) ahead of holiday buying.",
+    "creative_reference": "Trade-publication display campaign optimized for impression volume, no direct lead-capture CTA."
   },
   {
     "campaign_id": "CMP-010",
@@ -157,7 +184,10 @@
       "cost_per_lead": 58.0,
       "impressions": 27000,
       "leads": 88
-    }
+    },
+    "persona_notes": "Procurement lead managing shrinkage/loss across multiple locations, ROI-driven decision-maker.",
+    "market_insight": "Retail chains cite shrinkage as a top-5 controllable cost; free-audit offers convert well in this segment.",
+    "creative_reference": "Targeted email offering a free shrinkage-reduction audit, subject line 'How much shrinkage is hiding in your stores?'"
   },
   {
     "campaign_id": "CMP-011",
@@ -173,7 +203,10 @@
       "cost_per_lead": 49.0,
       "impressions": 11000,
       "leads": 104
-    }
+    },
+    "persona_notes": "EU finance director navigating new EBA guidance, needs a concrete compliance timeline before committing.",
+    "market_insight": "New EBA cross-border reporting guidance created urgent near-term compliance need across EU regional banks.",
+    "creative_reference": "EU regulatory launch webinar, positioned around the new EBA guidance deadline."
   },
   {
     "campaign_id": "CMP-012",
@@ -189,7 +222,10 @@
       "cost_per_lead": 95.0,
       "impressions": 195000,
       "leads": 111
-    }
+    },
+    "persona_notes": "Logistics operations VP evaluating route-optimization ROI, wants a self-serve calculator before booking a call.",
+    "market_insight": "Logistics buyers prefer self-serve ROI tools over sales calls in the early evaluation stage.",
+    "creative_reference": "LinkedIn lead ad promoting a route-optimization ROI calculator."
   },
   {
     "campaign_id": "CMP-013",
@@ -205,7 +241,10 @@
       "cost_per_lead": 198.0,
       "impressions": 540000,
       "leads": 31
-    }
+    },
+    "persona_notes": "HR director building the annual budget case, needs vendor top-of-mind ahead of the planning cycle.",
+    "market_insight": "Healthcare HR budget planning cycles run in Q4; awareness campaigns timed ahead of this window show higher recall.",
+    "creative_reference": "Healthcare-vertical display campaign timed ahead of annual budget planning cycles."
   },
   {
     "campaign_id": "CMP-014",
@@ -221,7 +260,10 @@
       "cost_per_lead": 44.0,
       "impressions": 33000,
       "leads": 121
-    }
+    },
+    "persona_notes": "EU grocery/general-merchandise procurement lead, interested primarily in demand-forecasting accuracy.",
+    "market_insight": "EU grocery retailers cite demand-forecasting accuracy as the top purchase driver for inventory AI.",
+    "creative_reference": "EU launch email sequence introducing the new demand-forecasting features."
   },
   {
     "campaign_id": "CMP-015",
@@ -237,6 +279,294 @@
       "cost_per_lead": 66.0,
       "impressions": 9800,
       "leads": 72
-    }
+    },
+    "persona_notes": "APAC regional/community bank finance director focused on cross-border payment compliance.",
+    "market_insight": "APAC cross-border payment compliance is a growing regulatory focus area driving webinar attendance.",
+    "creative_reference": "APAC regional webinar on cross-border payment compliance."
+  },
+  {
+    "campaign_id": "CMP-016",
+    "objective": "customer retention",
+    "audience": "Existing IT directors at mid-market manufacturers",
+    "market": "North America",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "email",
+    "description": "Renewal-season email campaign re-engaging existing CloudSync customers with a new predictive-maintenance feature announcement to reduce churn risk.",
+    "metrics": {
+      "ctr": 0.052,
+      "conversion_rate": 0.14,
+      "cost_per_lead": 22.0,
+      "impressions": 8000,
+      "leads": 61
+    },
+    "persona_notes": "Existing IT director customer nearing renewal, evaluating whether to expand usage or churn to a competitor.",
+    "market_insight": "Existing customers who engage with a new-feature announcement email show measurably lower churn in the following renewal cycle.",
+    "creative_reference": "Renewal email highlighting the new predictive-maintenance capability, subject line 'New in your CloudSync plan: Predictive Maintenance'."
+  },
+  {
+    "campaign_id": "CMP-017",
+    "objective": "lead generation",
+    "audience": "Supply chain directors at food and beverage manufacturers",
+    "market": "North America",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "paid search",
+    "description": "Paid search campaign capturing high-intent queries from supply chain directors researching uptime monitoring solutions for food and beverage plants.",
+    "metrics": {
+      "ctr": 0.08,
+      "conversion_rate": 0.09,
+      "cost_per_lead": 74.0,
+      "impressions": 5200,
+      "leads": 47
+    },
+    "persona_notes": "Supply chain director actively searching for a solution, high intent, comparing two or three vendors before requesting a demo.",
+    "market_insight": "Food and beverage manufacturers show above-average paid-search intent for 'plant uptime monitoring' terms during Q1 budget season.",
+    "creative_reference": "Search ad copy: 'Cut Unplanned Downtime -- See CloudSync Live', linked to a demo-request landing page."
+  },
+  {
+    "campaign_id": "CMP-018",
+    "objective": "brand awareness",
+    "audience": "Plant managers at automotive suppliers",
+    "market": "Europe",
+    "product_line": "CloudSync Ops Platform",
+    "channel": "social",
+    "description": "Organic and paid social campaign on LinkedIn and industry forums building awareness of CloudSync among automotive supplier plant managers ahead of a trade show.",
+    "metrics": {
+      "ctr": 0.009,
+      "conversion_rate": 0.006,
+      "cost_per_lead": 190.0,
+      "impressions": 410000,
+      "leads": 25
+    },
+    "persona_notes": "Plant manager at an automotive supplier, attends trade shows, influenced by peer visibility rather than direct ads.",
+    "market_insight": "European automotive suppliers cluster attention around major trade shows; awareness spend timed pre-event outperforms steady-state spend.",
+    "creative_reference": "Social carousel post series previewing a trade-show booth demo, cross-posted to LinkedIn and an industry forum."
+  },
+  {
+    "campaign_id": "CMP-019",
+    "objective": "lead generation",
+    "audience": "Finance directors at community banks",
+    "market": "Latin America",
+    "product_line": "LedgerGuard Compliance Suite",
+    "channel": "webinar",
+    "description": "LatAm regional webinar on cross-border reporting compliance for community bank finance directors navigating new central bank guidance.",
+    "metrics": {
+      "ctr": 0.037,
+      "conversion_rate": 0.082,
+      "cost_per_lead": 41.0,
+      "impressions": 8900,
+      "leads": 66
+    },
+    "persona_notes": "Finance director at a LatAm community bank, limited compliance staff, relies on vendor webinars for regulatory updates.",
+    "market_insight": "LatAm community banks face fast-evolving central-bank reporting rules with thin internal compliance headcount, driving high webinar attendance.",
+    "creative_reference": "Webinar titled 'Cross-Border Reporting: What LatAm Community Banks Need Now', delivered in Spanish and Portuguese."
+  },
+  {
+    "campaign_id": "CMP-020",
+    "objective": "product launch",
+    "audience": "Finance directors at regional banks",
+    "market": "North America",
+    "product_line": "LedgerGuard Compliance Suite",
+    "channel": "paid search",
+    "description": "Paid search launch campaign for LedgerGuard's new audit-trail module, targeting finance directors actively searching for compliance audit tools.",
+    "metrics": {
+      "ctr": 0.065,
+      "conversion_rate": 0.07,
+      "cost_per_lead": 68.0,
+      "impressions": 6100,
+      "leads": 40
+    },
+    "persona_notes": "Finance director evaluating audit-readiness tools, often searching close to an actual audit deadline.",
+    "market_insight": "Search demand for 'compliance audit trail software' spikes in the weeks before fiscal year-end audits.",
+    "creative_reference": "Search ad: 'Audit-Ready in Days, Not Months', linked to a product launch landing page."
+  },
+  {
+    "campaign_id": "CMP-021",
+    "objective": "customer retention",
+    "audience": "Existing finance directors at regional banks",
+    "market": "North America",
+    "product_line": "LedgerGuard Compliance Suite",
+    "channel": "email",
+    "description": "Renewal nurture email series reminding existing LedgerGuard customers of underused reporting features ahead of contract renewal.",
+    "metrics": {
+      "ctr": 0.048,
+      "conversion_rate": 0.12,
+      "cost_per_lead": 19.0,
+      "impressions": 7200,
+      "leads": 58
+    },
+    "persona_notes": "Existing customer finance director; the renewal decision is often delegated to a mid-level analyst who needs feature-usage data.",
+    "market_insight": "Renewal emails that highlight underused features correlate with higher renewal rates than generic 'time to renew' reminders.",
+    "creative_reference": "Renewal email series with a personalized feature-usage summary and a 'features you haven't tried' section."
+  },
+  {
+    "campaign_id": "CMP-022",
+    "objective": "lead generation",
+    "audience": "HR directors at skilled-nursing facilities",
+    "market": "North America",
+    "product_line": "StaffWell Scheduling",
+    "channel": "paid search",
+    "description": "Paid search campaign capturing HR directors at skilled-nursing facilities searching for shift-scheduling software after new staffing-ratio regulations.",
+    "metrics": {
+      "ctr": 0.071,
+      "conversion_rate": 0.095,
+      "cost_per_lead": 55.0,
+      "impressions": 4300,
+      "leads": 39
+    },
+    "persona_notes": "HR director at a skilled-nursing facility, under new regulatory staffing-ratio pressure, urgent buying timeline.",
+    "market_insight": "New staffing-ratio regulations in several states are driving a surge in scheduling-software search volume among nursing facilities.",
+    "creative_reference": "Search ad: 'Meet New Staffing Ratios Without the Scramble', linked to a compliance-focused landing page."
+  },
+  {
+    "campaign_id": "CMP-023",
+    "objective": "brand awareness",
+    "audience": "HR directors at healthcare systems",
+    "market": "Europe",
+    "product_line": "StaffWell Scheduling",
+    "channel": "social",
+    "description": "European social awareness campaign for StaffWell featuring short-form video testimonials from hospital HR leaders.",
+    "metrics": {
+      "ctr": 0.011,
+      "conversion_rate": 0.008,
+      "cost_per_lead": 165.0,
+      "impressions": 320000,
+      "leads": 28
+    },
+    "persona_notes": "European hospital HR director, influenced by peer testimonials more than vendor claims, longer consideration cycle than North America.",
+    "market_insight": "European healthcare buyers show longer awareness-to-consideration windows than NA counterparts; short-form video testimonials outperform static ads.",
+    "creative_reference": "Short-form video testimonials from hospital HR leaders, distributed as paid social clips."
+  },
+  {
+    "campaign_id": "CMP-024",
+    "objective": "product launch",
+    "audience": "HR directors at healthcare systems",
+    "market": "Latin America",
+    "product_line": "StaffWell Scheduling",
+    "channel": "email",
+    "description": "LatAm launch email introducing StaffWell's mobile shift-swap feature to hospital HR directors managing frontline nursing staff.",
+    "metrics": {
+      "ctr": 0.043,
+      "conversion_rate": 0.066,
+      "cost_per_lead": 51.0,
+      "impressions": 14500,
+      "leads": 89
+    },
+    "persona_notes": "LatAm hospital HR director managing high nurse turnover, values mobile-first tools that frontline staff will actually use.",
+    "market_insight": "LatAm frontline healthcare staff have high mobile-app usage; mobile-first feature announcements outperform desktop-oriented messaging.",
+    "creative_reference": "Launch email demoing the mobile shift-swap feature with an embedded app-screen GIF."
+  },
+  {
+    "campaign_id": "CMP-025",
+    "objective": "lead generation",
+    "audience": "Procurement leads at grocery chains",
+    "market": "Asia-Pacific",
+    "product_line": "ShelfSense Inventory AI",
+    "channel": "social",
+    "description": "APAC social lead-gen campaign for ShelfSense targeting grocery-chain procurement leads with a demand-forecasting accuracy challenge.",
+    "metrics": {
+      "ctr": 0.028,
+      "conversion_rate": 0.045,
+      "cost_per_lead": 63.0,
+      "impressions": 52000,
+      "leads": 71
+    },
+    "persona_notes": "APAC grocery procurement lead, skeptical of forecasting-accuracy claims, responds to head-to-head accuracy challenges.",
+    "market_insight": "APAC grocery retailers respond well to 'prove it' style forecasting-accuracy challenges over generic feature messaging.",
+    "creative_reference": "Social post series inviting procurement leads to submit a demand-forecasting accuracy challenge."
+  },
+  {
+    "campaign_id": "CMP-026",
+    "objective": "customer retention",
+    "audience": "Existing procurement leads at retail chains",
+    "market": "North America",
+    "product_line": "ShelfSense Inventory AI",
+    "channel": "email",
+    "description": "Retention email series for existing ShelfSense customers highlighting shrinkage-reduction results achieved in year one, ahead of renewal.",
+    "metrics": {
+      "ctr": 0.055,
+      "conversion_rate": 0.13,
+      "cost_per_lead": 17.0,
+      "impressions": 6400,
+      "leads": 52
+    },
+    "persona_notes": "Existing retail procurement lead evaluating renewal ROI, wants to see a concrete before/after shrinkage number.",
+    "market_insight": "Renewal messaging anchored on a customer's own first-year results outperforms generic feature-update renewal emails.",
+    "creative_reference": "Renewal email with a personalized 'your shrinkage reduction in year one' results summary."
+  },
+  {
+    "campaign_id": "CMP-027",
+    "objective": "product launch",
+    "audience": "Procurement leads at retail chains",
+    "market": "North America",
+    "product_line": "ShelfSense Inventory AI",
+    "channel": "paid search",
+    "description": "Paid search launch campaign for ShelfSense's new automated-reorder feature, targeting procurement leads searching for inventory automation tools.",
+    "metrics": {
+      "ctr": 0.062,
+      "conversion_rate": 0.07,
+      "cost_per_lead": 72.0,
+      "impressions": 5700,
+      "leads": 40
+    },
+    "persona_notes": "Procurement lead comparing automated-reorder solutions, price-sensitive and ROI-focused.",
+    "market_insight": "Search interest in 'automated inventory reorder' rose sharply following widely publicized retail stockout stories.",
+    "creative_reference": "Search ad: 'Never Stock Out Again -- Automated Reorder is Here', linked to a launch landing page."
+  },
+  {
+    "campaign_id": "CMP-028",
+    "objective": "lead generation",
+    "audience": "Fleet managers at regional trucking companies",
+    "market": "North America",
+    "product_line": "FleetPulse Telematics Suite",
+    "channel": "LinkedIn",
+    "description": "LinkedIn lead-gen campaign introducing FleetPulse telematics to fleet managers at regional trucking companies, offering a free fuel-savings assessment.",
+    "metrics": {
+      "ctr": 0.024,
+      "conversion_rate": 0.038,
+      "cost_per_lead": 91.0,
+      "impressions": 175000,
+      "leads": 79
+    },
+    "persona_notes": "Fleet manager at a regional trucking company, measured on fuel cost and driver safety incidents, wary of hardware-install complexity.",
+    "market_insight": "Regional trucking fleets cite fuel cost as their top controllable expense; free-assessment offers outperform generic feature pitches.",
+    "creative_reference": "LinkedIn lead ad offering a free fuel-savings assessment, headline 'How much fuel is your fleet wasting?'"
+  },
+  {
+    "campaign_id": "CMP-029",
+    "objective": "brand awareness",
+    "audience": "Fleet managers at regional trucking companies",
+    "market": "Europe",
+    "product_line": "FleetPulse Telematics Suite",
+    "channel": "display",
+    "description": "European programmatic display campaign building brand familiarity for FleetPulse among fleet managers ahead of a regulatory telematics mandate.",
+    "metrics": {
+      "ctr": 0.006,
+      "conversion_rate": 0.005,
+      "cost_per_lead": 225.0,
+      "impressions": 680000,
+      "leads": 24
+    },
+    "persona_notes": "European fleet manager facing an upcoming telematics mandate, in early research mode, not yet ready to buy.",
+    "market_insight": "An upcoming EU telematics mandate is driving early-stage research activity among fleet managers, well ahead of typical buying cycles.",
+    "creative_reference": "Programmatic display campaign referencing the upcoming mandate deadline, no direct lead-capture CTA."
+  },
+  {
+    "campaign_id": "CMP-030",
+    "objective": "product launch",
+    "audience": "Fleet managers at regional trucking companies",
+    "market": "Latin America",
+    "product_line": "FleetPulse Telematics Suite",
+    "channel": "webinar",
+    "description": "LatAm launch webinar for FleetPulse's new driver-safety scoring module, aimed at fleet managers navigating rising insurance costs.",
+    "metrics": {
+      "ctr": 0.039,
+      "conversion_rate": 0.088,
+      "cost_per_lead": 46.0,
+      "impressions": 9600,
+      "leads": 68
+    },
+    "persona_notes": "LatAm fleet manager under pressure from rising insurance premiums, looking for measurable driver-safety improvements.",
+    "market_insight": "Rising commercial insurance premiums in LatAm are pushing fleet managers to seek driver-safety scoring tools as a premium-reduction lever.",
+    "creative_reference": "Launch webinar demoing the driver-safety scoring module, featuring an insurance-partner guest speaker."
   }
 ]

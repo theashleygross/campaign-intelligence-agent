@@ -38,17 +38,28 @@ class CampaignRequest:
 
 @dataclass
 class MatchedCampaign:
-    """One past campaign matched against a new request, with its evidence."""
+    """One past campaign matched against a new request, with its evidence.
+
+    Carries all 5 evidence source types the engine models for this campaign:
+    1. Prior campaign brief    -- objective/audience/market/product_line/channel/description
+    2. Persona research        -- `persona_notes`
+    3. Customer/market insight -- `market_insight`
+    4. Creative asset reference-- `creative_reference`
+    5. Performance benchmark   -- `key_metrics`
+    """
 
     campaign_id: str
     similarity_score: float          # cosine similarity, 0-1
-    key_metrics: dict                # ctr, conversion_rate, cost_per_lead, etc.
+    key_metrics: dict                # ctr, conversion_rate, cost_per_lead, etc. (evidence type 5)
     objective: str = ""
     audience: str = ""
     market: str = ""
     product_line: str = ""
     channel: str = ""
     description: str = ""
+    persona_notes: str = ""          # evidence type 2: persona research
+    market_insight: str = ""         # evidence type 3: customer/market insight
+    creative_reference: str = ""     # evidence type 4: creative asset reference
 
 
 @dataclass

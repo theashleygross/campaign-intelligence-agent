@@ -37,6 +37,19 @@ MIN_STRONG_MATCHES = 2           # fewer strong matches than this => thin eviden
 LOW_CTR_BASELINE = 0.015         # below this, flag creative fatigue / engagement risk
 HIGH_COST_PER_LEAD_BASELINE = 150.0  # above this, flag budget efficiency risk
 
+# The 5 evidence source types this engine explicitly models for every matched
+# campaign. Each maps to a concrete field carried on `MatchedCampaign` so the
+# UI can render one clearly labeled block per source type in the Evidence
+# panel. This list is also the source of truth for the "5 evidence sources"
+# figure shown in the app's metrics panel and README.
+EVIDENCE_SOURCE_TYPES: List[str] = [
+    "Prior campaign brief",
+    "Persona research",
+    "Customer / market insight",
+    "Creative asset reference",
+    "Performance benchmark",
+]
+
 # Candidate messaging-angle keywords found in past campaign descriptions,
 # mapped to a human-readable angle. A keyword must show up in the
 # description of 2+ distinct matched campaigns to be surfaced (see
@@ -130,6 +143,9 @@ def find_similar_campaigns(
                 product_line=campaign.get("product_line", ""),
                 channel=campaign.get("channel", ""),
                 description=campaign.get("description", ""),
+                persona_notes=campaign.get("persona_notes", ""),
+                market_insight=campaign.get("market_insight", ""),
+                creative_reference=campaign.get("creative_reference", ""),
             )
         )
     return matches
