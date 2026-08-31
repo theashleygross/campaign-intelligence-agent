@@ -1,6 +1,8 @@
 # Campaign Intelligence Agent
 
-**Maturity:** Streamlit Cloud deployment pending · Synthetic data · Evidence-backed briefing
+**Maturity:** Live public demo · Synthetic data · Evidence-backed briefing
+
+**Live demo:** https://campaign-intelligence-agent.streamlit.app/ (verified 2026-08-31 — guided flow tested: incomplete-form validation error confirmed, then a full submission returned real matched-campaign coverage and evidence panels)
 
 **Turns a five-minute campaign brief conversation into an evidence-backed brief in seconds, by grounding every recommendation in real historical campaign performance instead of generic best practices.**
 
